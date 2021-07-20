@@ -1,0 +1,127 @@
+/*REGISTER*/
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+/*.form {
+  position: relative;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 640px;
+  height: 460px;
+  margin: auto;
+  background: #FAFAFA;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  z-index: 100;
+}
+.form__header {
+  height: 67px;
+  background-color: #FFF;
+  padding: 20px 15px;
+  margin-bottom: 0;
+}
+.form__main {
+  padding: 30px 20px;
+}
+.form__body {
+  background-color: #FFF;
+  width: 350px;
+  margin: 0 auto;
+  padding: 30px;
+}*/
+.dialog-body {
+  background-color: #fff;
+  padding: 50px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-width: 400px;
+}
+
+.form__alert-text {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/*.form__field {
+  display: flex;
+  justify-content: space-between;
+  width: 328px;
+  padding: 10px 10px 10px 50px;
+  margin-bottom: 15px;
+  background: rgba(33, 33, 33, 0.08);
+  border-radius: 4px 4px 0px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+.form__content {
+  display: flex;
+  flex-direction: column;
+}
+.form__label {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.38);
+}
+.form__input {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #000;
+}
+.form__footer {
+  max-width: 40%;
+  margin: 0 20px 0 auto;
+}
+.form__btns {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 30px;
+}*/
+.form__btn {
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+}
+
+.btn_add, .btn_ok {
+  background-color: #2196F3;
+  color: #E3F2FD;
+  margin-right: 15px;
+}
+
+.btn_ok {
+  width: 100px;
+  height: 36px;
+  margin: 50px 0 0 200px;
+}
+
+/*.btn_add:disabled {
+  opacity: 0.5;
+}
+.btn_add:hover {
+  background-color: #2196F3;
+  color: #E3F2FD;
+}
+.btn_cancel {
+  background-color: #E3F2FD;
+  color: #2196F3;
+}
+.btn_hover {
+  background-color: #E3F2FD;
+}*/
